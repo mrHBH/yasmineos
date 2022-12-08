@@ -1,6 +1,7 @@
 to run : 
 
 npm i
+
 npm run dev2 
 
 demo https://dev7.ben-hassen.com/
