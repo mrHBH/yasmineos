@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+
+
+
+<html>
+
+<head>
+    <title>YasmineOS</title>
+    <meta charset="utf-8">
+    <!-- <script src="coi-serviceworker.js"></script> -->
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="materialize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+    <link href="./baseThreeDStyles.css" rel="stylesheet">
+    <link href="./demoCli.css" rel="stylesheet">
+    <style>
+ 
+    </style>
+</head>
+
+<body>       <script>
+
+  if (!crossOriginIsolated) SharedArrayBuffer = ArrayBuffer;
+</script>
+
+    <!-- <div id="css3d"></div> -->
+    <!-- The cursor elements --> 
+    <div class="arrow-cursor">
+        <svg class="arrow-cursor__icon" viewBox="0 0 117.25 86.75">
+            <path id="ArrowCursorID" class="arrow1" d=""/>
+        </svg>
+    </div>
+    <div class="cursor cursor--small"></div>
+    <canvas class="cursor cursor--canvas" resize></canvas>
+    
+    </div>
+    <canvas id="webgl"></canvas>
+    <div id="css3d"></div>
+
+
+    <!-- <div id="css"></div> -->
+
+
+    <div id="joystickWrapper1"></div>
+
+    <script type="module" src="bundle.js"></script>
+    <script type="text/javascript" src="materialize.min.js"></script>
+
+</body>
+
+</html>

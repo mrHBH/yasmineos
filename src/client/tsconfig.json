@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "forceConsistentCasingInFileNames": true,
+        "moduleResolution": "node",
+        "target": "esnext",
+        "module": "esnext",
+        "allowJs": false,
+        "strict": false,
+        "sourceMap": true,
+        "paths": {
+            "three/examples/jsm/libs/dat.gui.module": ["../../node_modules/@types/dat.gui"],
+            "three/examples/jsm/libs/tween.module.min": ["../typings/tween.js"],
+            "three/examples/jsm/utils/skeletonUtils ": ["../typings/SkeletonUtils.js"]
+
+        },
+        "lib": [ "dom", "ScriptHost", "webworker"],
+    },
+
+    "include": [
+        "**/*.ts",
+        "**/*.js"
+        
+    
+    ],
+    "exclude": ["node_modules", "dist/**/*", 
+     ]
+}

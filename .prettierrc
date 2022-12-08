@@ -1,0 +1,12 @@
+{
+  "tabWidth": 2,
+  "useTabs": true,
+  "insertSpaces": true,
+  "trimAutoWhitespace": true,
+  "autoClosingBrackets": true,
+  "autoClosingQuotes": true,
+  "autoSurround": true,
+  "autoIndent": true,
+  "formatOnPaste": true,
+  "formatOnType": true
+}
